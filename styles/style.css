@@ -43,6 +43,7 @@
 
 .header_main-text {
   font-family: var(--accent-font-family);
+  font-weight: 400;
   font-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
   line-height: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
   letter-spacing: 0;
