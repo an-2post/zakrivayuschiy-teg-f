@@ -27,6 +27,7 @@
   flex-direction: column;
   align-items: center;
   gap: 100px;
+  font-variation-settings: "wght" 410;
 }
 
 .header {
