@@ -408,3 +408,8 @@ dialog::backdrop {
     order: 8;
   }
 }
+
+/* commit для автотестов*/
+.tests {
+  margin: 0;
+}
