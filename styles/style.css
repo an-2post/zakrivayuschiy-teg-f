@@ -184,10 +184,6 @@
   font-weight: 410;
 }
 
-/* .card_text {
-  font-family: var(--main-font-family);
-} */
-
 .card_buttons {
   justify-self: flex-end;
   align-self: flex-end;
@@ -354,6 +350,15 @@ dialog::backdrop {
   gap: 8px;
 }
 
+.button-icon {
+  max-width: 21px;
+  height: auto;
+}
+
+.button-icon use {
+  fill: #fff;
+}
+
 /*-----------------------------------*/
 
 @supports (font-variation-settings: normal) {
@@ -408,9 +413,4 @@ dialog::backdrop {
   .cards_card-list .cards_card-list-item:nth-child(8) {
     order: 8;
   }
-}
-
-/* commit для автотестов*/
-.tests {
-  margin: 0;
 }
