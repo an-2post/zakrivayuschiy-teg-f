@@ -91,14 +91,18 @@
   padding: 4px 10px;
   line-height: 18px;
   letter-spacing: 0;
+  min-block-size: 30px;
 }
 
 .card_wrapper {
   position: relative;
 }
 
+/*----------------------------*/
+
 .card_image {
   object-fit: contain;
+  max-width: 100%;
 }
 
 .filter-brigtness {
@@ -141,8 +145,10 @@
   opacity: 0.5;
 }
 
+/*---------------------------*/
+
 .card_text-wrapper {
-  padding: 25px;
+  padding: 21px 25px 24px;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0;
@@ -197,6 +203,7 @@
   padding-right: 25px;
   padding-bottom: 25px;
   display: flex;
+  gap: 7px;
 }
 
 .card_buttons button {
@@ -212,6 +219,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  block-size: 38px;
+  inline-size: 38px;
+  padding: 0;
 }
 
 .card__icon-button:focus {
@@ -283,6 +293,7 @@
 
 .like-icon.is-liked .heart {
   animation: scale 0.3s 0.1s ease-in;
+  transform-origin: center;
 }
 
 .like-icon.is-liked .sparks {
