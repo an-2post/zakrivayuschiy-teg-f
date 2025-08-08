@@ -5,7 +5,6 @@
   --accent-font-family: "PressStart2P", sans-serif;
   --main-font-weight: 400;
   --accent-font-weight: 715;
-  /* --main-gradient: repeating-linear-gradient(270deg, #d3d3d3 0px 2px, transparent 2px 4px) */
   --main-width: clamp(375px, 375px + 30.5vw - 114.4px, 700px);
   --accent-color: #000;
   --contour: #000;
